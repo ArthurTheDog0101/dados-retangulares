@@ -1,8 +1,8 @@
 :root{
-    --bg-colors:  #FF0000;
+    --bg-colors: #FFE8C5 ;
     --primary-color: #FFA27F;
-    --second-color: #FFE8C5;
-    --font-color: #97BE5A;
+    --second-color: #97BE5A;
+    --font-color: #FF0000; 
 }
 
 .cabecalho{
@@ -32,3 +32,9 @@ nav a{
     font-size: 1.2rem;
 }
 
+nav a:hover {
+    text-decoration: underline;
+    transform: scale(0.9);
+    transition: transform 0.1s ;
+
+}

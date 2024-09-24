@@ -34,7 +34,7 @@ nav a{
 
 nav a:hover {
     text-decoration: underline;
-    transform: scale(0.9);
+    transform: scale(2.9);
     transition: transform 0.1s ;
 
 }

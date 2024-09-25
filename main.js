@@ -3,4 +3,6 @@ const url/="https://servicodados.ibge.gov.br/api/v3/agregados/1286/periodos/1920
 async function VisualizarDados() {
     const res = await fetch(url)
     const dados = await res.json()
+    console.log(dados)
 }
+VisualizarDados()

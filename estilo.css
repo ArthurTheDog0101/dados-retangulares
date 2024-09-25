@@ -38,3 +38,7 @@ nav a:hover {
     transition: transform 0.1s ;
 
 }
+
+footer{
+    text-align: center;
+}
